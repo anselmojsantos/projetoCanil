@@ -7,7 +7,7 @@ export const home = (req:Request, res:Response)=>{
     res.render('pages/pages',{
         menu: activeMenuOj('all'),
         banner:{
-            title: "Todos os animais",
+            title: "Todos os pets",
             background:"allanimals.jpg"
         },
         list
